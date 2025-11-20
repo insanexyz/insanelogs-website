@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.500);
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.356);
+  backdrop-filter: blur(100px);
+  box-shadow: 3px 3px 3px 3px white;
+}
+
+main .main-image img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+main .home-page-text {
+  text-align: center;
+}

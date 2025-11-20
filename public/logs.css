@@ -1,0 +1,10 @@
+main {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 10px;
+  color: hotpink;
+}
+
+main a {
+  color: hotpink;
+}
