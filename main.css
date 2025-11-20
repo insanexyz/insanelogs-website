@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,16 +10,24 @@ html {
   font-size: 10px;
 }
 
+html *::selection {
+  background-color: red;
+  color: black;
+}
+
 body {
   background: radial-gradient(circle at center, #3a3a3a 0%, #1c1c1c 80%);
-  color: #e0e0ff;
+  color: white;
   font-size: 18px;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
   margin-bottom: 100px;
-  background-color: rgba(0, 0, 0, 0.356);
-  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .nav-container {
@@ -46,22 +56,14 @@ li {
   list-style: none;
 }
 
-
-
 footer {
   text-align: center;
   margin-top: 50px;
   padding: 50px;
-  background-color: rgb(15, 15, 15);
-  background-color: rgba(0, 0, 0, 0.356);
-  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 a {
   text-decoration: none;
-  color: wheat;
+  color: red;
 }
-
-/* .glass-container {
-  backdrop-filter: blur(10px);
-} */
